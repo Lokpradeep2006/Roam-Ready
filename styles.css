@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -11,10 +10,9 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('images/backgroundimage1.jpg')  no-repeat center center / cover;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('images/backgroundimage1.jpg') no-repeat center center / cover;
     color: #fff;
 }
-
 
 .container {
     text-align: center;
@@ -26,17 +24,16 @@ body, html {
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
 }
 
-
 h1 {
     font-size: 2.5rem;
     font-weight: bold;
-    color: #FFD700;
+    color: #FFD700; /* Gold color for heading */
     margin-bottom: 10px;
 }
 
 h2 {
     font-size: 1.5rem;
-    color: #FFDD44;
+    color: #FFDD44; /* Slightly lighter gold */
     margin-bottom: 20px;
 }
 
@@ -44,13 +41,13 @@ h2 {
     font-size: 1.75rem;
     font-style: italic;
     font-weight: 500;
-    color: #FFD700;
+    color: #FFD700; /* Gold color for quote */
     margin: 20px 0;
 }
 
 .subtext {
     font-size: 1.1rem;
-    color: #dddddd;
+    color: #dddddd; /* Light gray for subtext */
     line-height: 1.6;
     margin-top: 15px;
 }
